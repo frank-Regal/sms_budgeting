@@ -1,2 +1,2 @@
-# sms_budgeting
-A simple texting budgeting application
+# SMS Budget Application
+A simple text-based budgeting application.

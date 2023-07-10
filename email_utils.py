@@ -19,7 +19,7 @@ class Outlook():
         login_attempts = 0
         while True:
             try:
-                self.imap_server = 'imap.outlook.com'
+                self.imap_server = config.imap_server
                 self.imap = imaplib.IMAP4_SSL(self.imap_server)
                 r, d = self.imap.login(username, password)
                 assert r == 'OK', 'login failed: %s' % str (r)

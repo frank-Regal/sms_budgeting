@@ -1,10 +1,10 @@
-# Configure outlook.com imap settings
+# Standard Outlook IMAP Settings
 imap_server = "imap.outlook.com"
 imap_port = 993
 smtp_server = "smtp-mail.outlook.com"
 smtp_port = 587
 
-# if you choose this lib for office365.com, comment settings above and uncomment below
+# Standard Office365 IMAP Settings
 #imap_server = "outlook.office365.com"
 #imap_port = 993
 #smtp_server = "smtp.office365.com"
