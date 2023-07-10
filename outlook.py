@@ -17,7 +17,6 @@ class Outlook():
         self.username = username
         self.password = password
         login_attempts = 0
-        print('Hello World')
         while True:
             try:
                 self.imap_server = 'imap.outlook.com'
